@@ -9,7 +9,7 @@ Este documento describe los pasos para lanzar el sistema de visión y control de
 1. CONECTARSE A LA RASPBERRY POR SSH
 ----------------------------------------
 
-ssh <usuario>@<IP_RASPBERRY>
+ssh <tu_usuario>@<IP_RASPBERRY>
 
 (Reemplazar <usuario> y <IP_RASPBERRY> con tus datos)
 
