@@ -11,7 +11,7 @@ Este documento describe los pasos para lanzar el sistema de visión y control de
 
 ssh <tu_usuario>@<IP_RASPBERRY>
 
-(Reemplazar <usuario> y <IP_RASPBERRY> con tus datos)
+(Reemplazar <tu_usuario> y <IP_RASPBERRY> con tus datos, después de haber configurado la raspi y clonado el repositorio)
 
 Asegúrate de que los archivos .bashrc estén configurados con:
 - ROS_MASTER_URI
