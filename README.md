@@ -68,8 +68,6 @@ Paso 2: Ejecutar en otra terminal:
 4. MOVIMIENTO AUTÓNOMO HACIA BOTELLAS
 ----------------------------------------
 
-(Pendiente de implementar)
-
 Objetivo:
 - Si la botella se detecta a más de 2.0 metros → no moverse.
 - Si está entre 2.0 y 0.5 metros → avanzar hacia ella.
@@ -89,7 +87,7 @@ ESTADO ACTUAL
 - Detección de botellas: funcionando
 - Estimación de distancia: funcionando
 - Movimiento teleoperado: funcionando
-- Movimiento autónomo: PENDIENTE
+- Movimiento autónomo: funcionando
 - Launch de teleop: PENDIENTE
 
 ----------------------------------------
@@ -98,4 +96,5 @@ NOTAS FINALES
 
 - La detección funciona bien incluso a 2 metros o más.
 - Ajustes de umbral de color HSV y área mínima permiten mejorar la precisión.
-- Asegúrate de tener buena iluminación para mejor rendimiento.
+- Una buena iluminación mejora el rendimiento.
+- Todo lo implementado ha sido a nivel básico para probar que la solución es viable y escalable.
