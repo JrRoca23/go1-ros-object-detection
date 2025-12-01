@@ -62,8 +62,6 @@ Paso 2: Ejecutar en otra terminal:
 
 (Esto permite controlar el Go1 con el teclado)
 
-* Pendiente: Crear un launch para lanzar los dos nodos juntos *
-
 ----------------------------------------
 4. MOVIMIENTO AUTÓNOMO HACIA BOTELLAS
 ----------------------------------------
@@ -88,7 +86,6 @@ ESTADO ACTUAL
 - Estimación de distancia: funcionando
 - Movimiento teleoperado: funcionando
 - Movimiento autónomo: funcionando
-- Launch de teleop: PENDIENTE
 
 ----------------------------------------
 NOTAS FINALES
