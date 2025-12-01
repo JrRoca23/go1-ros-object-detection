@@ -1,0 +1,8 @@
+<launch>
+  <!-- Lanzar highcmd_publisher primero -->
+  <node name="highcmd_publisher" pkg="go1_movement" type="highcmd_publisher" output="screen" />
+
+  <!-- Espera 2 segundos para asegurar inicialización -->
+  <param name="sleep_before_teleop" value="$(eval 2)" />
+  <node name="go1_teleop" pkg="go1_movement" type="go1_teleop" output="screen" launch-prefix="bash -c 'sleep 2; exec '" />
+</launch>

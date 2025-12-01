@@ -1,0 +1,13 @@
+<launch>
+  <!-- Lanzar la cámara -->
+  <include file="$(find openni2_launch)/launch/openni2.launch" />
+
+  <!-- Nodo de detección de botellas -->
+  <node name="bottle_detector" pkg="go1_vision" type="bottle_detector.py" output="screen" />
+
+  <!-- Nodo de movimiento (solo publisher, control manual o automático usa cmd_vel) -->
+  <node name="highcmd_publisher" pkg="go1_movement" type="highcmd_publisher" output="screen" />
+
+  <!-- Nodo de comportamiento: acercarse a la botella -->
+  <node name="approach_bottle_node" pkg="go1_behavior" type="approach_bottle_node.py" output="screen" />
+</launch>

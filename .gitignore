@@ -1,0 +1,18 @@
+# ROS build stuff
+build/
+devel/
+install/
+log/
+logs/
+
+# Catkin
+.catkin_tools/
+.colcon/
+
+# Editor configs
+.vscode/
+.idea/
+
+# Otros
+*.swp
+*.cache
